@@ -7,9 +7,9 @@ public class Producto {
 
     private static int ultimocodigo;
 
-    public Producto(String nombre, double precio){
+    public Producto(){
         ultimocodigo++;
-        this.codigo= "P" + String.format("%05d, ultimocodigo");
+        this.codigo= "P" ;
         this.nombre=nombre;
         this.precio=precio;
     }

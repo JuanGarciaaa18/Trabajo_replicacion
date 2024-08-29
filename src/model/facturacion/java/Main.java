@@ -23,11 +23,11 @@ public class Main {
             System.out.print("Ingrese producto nº " + producto.getCodigo() + ": ");
             producto.setNombre(s.nextLine());
 
+            System.out.print("Ingrese la cantidad: ");
+            factura.addItemFactura(new itemFactura(producto, s.nextInt()));
+
             System.out.print("Ingrese el precio: ");
             producto.setPrecio(s.nextFloat());
-
-            System.out.print("Ingrese la cantidad: ");
-            factura.addItemFactura(new itemFactura(s.nextInt(), producto));
 
             System.out.println();
             s.nextLine();

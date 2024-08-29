@@ -1,8 +1,8 @@
 package model.facturacion.java;
 
 public class itemFactura {
-private Producto producto;
-private int cantidad;
+    private Producto producto;
+    private int cantidad;
 
 
     public itemFactura(Producto Producto, int cantidad) {
@@ -27,7 +27,7 @@ private int cantidad;
     }
 
     public float calcularImporte() {
-        return (float) (cantidad-producto.getPrecio());
+        return (float) (cantidad*producto.getPrecio());
     }
 
 
@@ -36,8 +36,6 @@ private int cantidad;
         return producto.getNombre() + "\t" + cantidad + "\t" + calcularImporte();
     }
 }
-
-
 
 
 

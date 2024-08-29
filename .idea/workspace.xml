@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23d6b9fc-dbe5-425f-a90a-ec5034f63e97" name="Changes" comment="First commit create the class">
-      <change afterPath="$PROJECT_DIR$/src/model/facturacion/java/Main.java" afterDir="false" />
+    <list default="true" id="23d6b9fc-dbe5-425f-a90a-ec5034f63e97" name="Changes" comment="create constructors">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/facturacion/java/Factura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/facturacion/java/Factura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/facturacion/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/facturacion/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/facturacion/java/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/facturacion/java/Producto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/facturacion/java/itemFactura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/facturacion/java/itemFactura.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,15 +42,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/SENA/Desktop/ADSO MAÑANA/Trabajo_replicacion&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/SENA/Desktop/ADSO MAÑANA/Trabajo_replicacion/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/SENA/Desktop/ADSO MAÑANA/Trabajo_replicacion",
+    "onboarding.tips.debug.path": "C:/Users/SENA/Desktop/ADSO MAÑANA/Trabajo_replicacion/src/Main.java"
   }
-}</component>
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="model.facturacion.java.Main" />
+      <module name="Trabajo_replicacion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.facturacion.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -66,11 +90,30 @@
       <option name="project" value="LOCAL" />
       <updated>1724930447524</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="create constructors">
+      <option name="closed" value="true" />
+      <created>1724939192562</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724939192562</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit create the class" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit create the class" />
+    <MESSAGE value="create constructors" />
+    <option name="LAST_COMMIT_MESSAGE" value="create constructors" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.MissingFormatArgumentException" package="java.util" />
+          <option name="timeStamp" value="4" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
