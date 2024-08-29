@@ -5,6 +5,11 @@ private Producto producto;
 private int cantidad;
 
 
+    public itemFactura(Producto Producto, int cantidad) {
+        this.producto = Producto;
+        this.cantidad = cantidad;
+    }
+
     public Producto getProducto() {
         return producto;
     }
@@ -21,6 +26,24 @@ private int cantidad;
         this.cantidad = cantidad;
     }
 
+    public float calcularImporte() {
+        return (float) (cantidad-producto.getPrecio());
+    }
 
 
+    @Override
+    public String toString() {
+        return producto.getNombre() + "\t" + cantidad + "\t" + calcularImporte();
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
